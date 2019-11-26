@@ -1,10 +1,10 @@
-﻿using DocumentProcessing.Crk.Models;
+﻿using DocumentProcessing.Srk.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Npgsql;
 
-namespace DocumentProcessing.Crk.Data
+namespace DocumentProcessing.Srk.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
@@ -27,6 +27,24 @@ namespace DocumentProcessing.Crk.Data
             base.OnModelCreating(modelBuilder);
 
             // modelBuilder.ForNpgsqlHasEnum<AppointmentCharacters>();
+
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.ScannedFile)
+                .WithOne()
+                .HasForeignKey<Order>(x => x.ScannedFileId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<DocumentSrk>()
+                .HasOne(x => x.FirstOrder)
+                .WithOne()
+                .HasForeignKey<DocumentSrk>(x => x.FirstOrderId)
+                .OnDelete(DeleteBehavior.Restrict);
+            
+            modelBuilder.Entity<DocumentSrk>()
+                .HasOne(x => x.SecondOrder)
+                .WithOne()
+                .HasForeignKey<DocumentSrk>(x => x.SecondOrderId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

@@ -1,13 +1,13 @@
 using System.Threading.Tasks;
-using DocumentProcessing.Crk.Models;
-using DocumentProcessing.Crk.ViewModels;
+using DocumentProcessing.Srk.Models;
+using DocumentProcessing.Srk.ViewModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace DocumentProcessing.Crk.Controllers
+namespace DocumentProcessing.Srk.Controllers
 {
     [Route("[controller]/[action]")]
     public class AccountController : Controller

@@ -2,14 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DocumentProcessing.Crk.Models;
+using DocumentProcessing.Srk.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Npgsql;
 
-namespace DocumentProcessing.Crk.Data
+namespace DocumentProcessing.Srk.Data
 {
     public class ApplicationDataSeed
     {

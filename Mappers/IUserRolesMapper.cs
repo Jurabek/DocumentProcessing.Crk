@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using DocumentProcessing.Crk.ViewModels.Roles;
+using DocumentProcessing.Srk.ViewModels.Roles;
 
-namespace DocumentProcessing.Crk.Mappers
+namespace DocumentProcessing.Srk.Mappers
 {
     public interface IUserRolesMapper
     {

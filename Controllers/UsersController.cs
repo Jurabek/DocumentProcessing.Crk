@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using DocumentProcessing.Crk.Mappers;
-using DocumentProcessing.Crk.Models;
-using DocumentProcessing.Crk.ViewModels;
-using DocumentProcessing.Crk.ViewModels.Roles;
+using DocumentProcessing.Srk.Mappers;
+using DocumentProcessing.Srk.Models;
+using DocumentProcessing.Srk.ViewModels;
+using DocumentProcessing.Srk.ViewModels.Roles;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DocumentProcessing.Crk.Controllers
+namespace DocumentProcessing.Srk.Controllers
 {
     [Authorize(Roles = "Admin")]
     public class UsersController : Controller

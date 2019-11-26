@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Identity;
 
-namespace DocumentProcessing.Crk.ViewModels.Roles
+namespace DocumentProcessing.Srk.ViewModels.Roles
 {
     public class EditRoleViewModel
     {

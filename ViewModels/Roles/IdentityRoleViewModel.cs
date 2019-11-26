@@ -1,4 +1,4 @@
-﻿namespace DocumentProcessing.Crk.ViewModels.Roles
+﻿namespace DocumentProcessing.Srk.ViewModels.Roles
 {
     public class IdentityRoleViewModel
     {

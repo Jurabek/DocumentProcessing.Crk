@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Identity;
 
-namespace DocumentProcessing.Crk.ViewModels
+namespace DocumentProcessing.Srk.ViewModels
 {
     public class UsersViewModel
     {

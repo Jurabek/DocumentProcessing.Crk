@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace DocumentProcessing.Crk.ViewModels
+namespace DocumentProcessing.Srk.ViewModels
 {
     
         public class RegisterViewModel

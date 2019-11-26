@@ -3,7 +3,7 @@ using System.Data.Common;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Reflection;
-using DocumentProcessing.Crk.Controllers;
+using DocumentProcessing.Srk.Controllers;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.Logging;
 using Polly;
 using Polly.Retry;
 
-namespace DocumentProcessing.Crk
+namespace DocumentProcessing.Srk
 {
     public static class WebHostExtensions
     {

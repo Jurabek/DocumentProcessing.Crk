@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DocumentProcessing.Crk.ViewModels.Roles
+namespace DocumentProcessing.Srk.ViewModels.Roles
 {
     public class RoleViewModel
     {

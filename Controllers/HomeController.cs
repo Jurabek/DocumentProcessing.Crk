@@ -5,10 +5,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using DocumentProcessing.Crk.Models;
+using DocumentProcessing.Srk.Models;
+using DocumentProcessing.Srk.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 
-namespace DocumentProcessing.Crk.Controllers
+namespace DocumentProcessing.Srk.Controllers
 {
     public class HomeController : Controller
     {

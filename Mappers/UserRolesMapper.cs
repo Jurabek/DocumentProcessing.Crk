@@ -1,10 +1,10 @@
 using System.Linq;
 using System.Threading.Tasks;
-using DocumentProcessing.Crk.Models;
-using DocumentProcessing.Crk.ViewModels.Roles;
+using DocumentProcessing.Srk.Models;
+using DocumentProcessing.Srk.ViewModels.Roles;
 using Microsoft.AspNetCore.Identity;
 
-namespace DocumentProcessing.Crk.Mappers
+namespace DocumentProcessing.Srk.Mappers
 {
     public class UserRolesMapper : IUserRolesMapper
     {

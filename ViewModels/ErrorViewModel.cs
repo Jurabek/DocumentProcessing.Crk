@@ -1,6 +1,4 @@
-using System;
-
-namespace DocumentProcessing.Crk.Models
+namespace DocumentProcessing.Srk.ViewModels
 {
     public class ErrorViewModel
     {

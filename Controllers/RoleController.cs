@@ -1,12 +1,12 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using DocumentProcessing.Crk.ViewModels.Roles;
+using DocumentProcessing.Srk.ViewModels.Roles;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DocumentProcessing.Crk.Controllers
+namespace DocumentProcessing.Srk.Controllers
 {
     [Authorize(Roles = "Admin")]
     public class RoleController : Controller
